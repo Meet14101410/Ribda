@@ -1,0 +1,16 @@
+def ribda_profile():
+    stats = {
+        "Name": "Ribda",
+        "District": "Rajkot",
+        "Taluka": "Lodhika",
+        "State": "Gujarat",
+        "Highway": "Rajkot-Gondal (NH 27)",
+        "Nearby_Industries": "Shapar-Veraval"
+    }
+
+    print(f"--- Quick Statistics: {stats['Name']} ---")
+    for key, value in stats.items():
+        print(f"{key:18}: {value}")
+
+if __name__ == "__main__":
+    ribda_profile()
